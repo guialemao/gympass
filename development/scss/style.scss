@@ -1,0 +1,28 @@
+@import "compass/css3";
+@import "compass/reset";
+
+
+.content {
+	margin: 0 auto;
+	max-width: 1024px;
+	width: 100%;
+}
+
+body {
+	font-family: Verdana, sans-serif;
+	background-color: #fff;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.cols {
+	float: left;
+}
+
+.cf:before, .cf:after {
+	content: " ";
+    display: table;
+    clear: both;
+}
