@@ -1,0 +1,65 @@
+@import "compass/css3/transition";
+
+.header {
+	position: relative;
+	width: 100%;
+	height: 80px;
+
+	.header__logo {
+		position: absolute;
+		top: 18%;
+		left: 1%;
+		width: 13.2%;
+		height: 50px;
+		background-color: red;
+	}
+
+	.header__main-menu {
+		position: absolute;
+		top: 40%;
+		left: 19.53%;
+		width: 53.71%;
+		li {
+			margin-left: 6.27%;
+			font-weight: bold;
+			float: left;
+			a {
+				color: red;
+				text-decoration: none;
+				&:hover {
+					color: #3366FF;
+					@include transition(0.5s);
+				}
+			}
+			&:first-child {
+				margin-left: 0;
+			}
+			
+		}
+	}//header__main-menu
+
+	.header__user-menu {
+		position: absolute;
+		top: 40%;
+		right: 0;
+		width: 16%;
+		li {
+			margin-left: 15.27%;
+			font-weight: bold;
+			float: left;
+			a {
+				color: red;
+				text-decoration: none;
+				&:hover {
+					color: #3366FF;
+					@include transition(0.5s);
+				}
+			}
+			&:first-child {
+				margin-left: 0;
+			}
+			
+		}
+	}//header__user-menu
+
+}// header

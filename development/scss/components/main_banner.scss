@@ -1,0 +1,23 @@
+.main-banner {
+	width: 100%;
+	height: 615px;
+	background: url(../img/imageTop.png) no-repeat 0 0;
+
+	.main-banner__content {
+		padding-top: 8.78%;
+		width: 55.37%;
+
+		.main-title {
+			margin-bottom: 90px;
+		}
+
+		.plan-description {
+			list-style-type: disc;
+			color: #fff;
+			li {
+				margin-bottom: 16px;
+				line-height: 120%;
+			}
+		}
+	}//main-banner__content
+}//main-banner
