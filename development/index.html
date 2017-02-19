@@ -3,6 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>GymPass - Teste</title>
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
 	<link rel="stylesheet" href="css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -38,7 +40,7 @@
 		<div class="content">
 			<h2 class="mt-payment__title sub-title">Opções de mensalidade</h2>
 			<ul class="mt-payment__carousel cf">
-				<li>
+				<li class="mt-payment__carousel-list">
 					<h3>Plano Gympass I</h3>
 					<strong class="price">R$ 119.90/mês</strong>
 					<span class="small-txt">Utilize academias próximas a você.</span>
@@ -51,7 +53,7 @@
 					<a href="javascript:;" class="click-see">Veja o plano no mapa</a>
 					<button class="assign">Assinar</button>
 				</li>
-				<li>
+				<li class="mt-payment__carousel-list">
 					<h3>Plano Gympass II</h3>
 					<strong class="price">R$ 259.90/mês</strong>
 					<span class="small-txt">Utilize academias próximas a você.</span>
@@ -65,7 +67,7 @@
 					<button class="assign">Assinar</button>
 					
 				</li>
-				<li>
+				<li class="mt-payment__carousel-list">
 					<h3>Plano Gympass III</h3>
 					<strong class="price">R$ 399.90/mês</strong>
 					<span class="small-txt">Utilize academias próximas a você.</span>
@@ -79,7 +81,7 @@
 					<button class="assign">Assinar</button>
 					
 				</li>
-				<li>
+				<li class="mt-payment__carousel-list">
 					<h3>Plano Gympass IV</h3>
 					<strong class="price">R$ 499.90/mês</strong>
 					<span class="small-txt">Utilize academias próximas a você.</span>
@@ -100,9 +102,10 @@
 	<section class="plan-details">
 		<div class="content">
 			<h2 class="plan-details__title sub-title">Detalhes do plano</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, ullam temporibus nemo. Veniam doloremque, fugit sapiente sunt dolor asperiores eum at voluptatum magni placeat. Dignissimos maiores, aspernatur non mollitia nulla?</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt accusantium, iure fuga at rerum vero necessitatibus suscipit voluptatem fugiat numquam.</p>
-			<ul class="plan-details__infos">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br /> Ipsum, ullam temporibus nemo. Veniam doloremque, fugit sapiente sunt <br /> dolor asperiores eum at voluptatum magni placeat. <br /> Dignissimos maiores, aspernatur non mollitia nulla?</p>
+			
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br /> Deserunt accusantium, iure fuga at rerum <br /> vero necessitatibus suscipit voluptatem fugiat numquam.</p>
+			<ul class="plan-details__infos cf">
 				<li>
 					<span class="icon-map icon">Map</span>
 					<strong>Academias Incluidas</strong>
@@ -115,7 +118,7 @@
 				</li>
 				<li>
 					<span class="icon-payment icon">Payment</span>
-					<strong>FOrma de Pagamento</strong>
+					<strong>Forma de Pagamento</strong>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, eaque.
 				</li>
 			</ul>
@@ -130,38 +133,38 @@
 				<label><input type="radio" name="modalities" id="modalities" value="non-aquatic">Modalidades não aquáticas</label>
 			</div><!-- avaliable-modalities__row-choose -->
 
-			<div class="avaliable-modalities__row-result">
-				<div class="modalities-box modalities-aquatics">
-					<title>Natação</title>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur quos repellendus officiis assumenda recusandae rem error placeat incidunt totam sapiente, a autem, rerum debitis harum officia, minima modi perspiciatis minus repudiandae vel non tempora mollitia beatae. Facilis optio, laudantium.
+			<div class="avaliable-modalities__row-result cf">
+				<div class="modalities-box modalities-aquatics first-box">
+					<strong>Natação</strong>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur quos repellendus officiis assumenda recusandae rem error mollitia beatae. Facilis optio, laudantium.
 				</div>
 				<div class="modalities-box modalities-n-aquatics">
-					<title>Aeróbica</title>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque quidem repudiandae soluta repellendus harum, mollitia animi deleniti fugiat eum officiis provident autem, adipisci omnis. Itaque laboriosam esse recusandae accusantium pariatur velit, nobis saepe magnam culpa nisi quidem ratione repellendus eaque!
+					<strong>Aeróbica</strong>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque quidem repudiandae soluta repellendus harum, mollitia animi deleniti culpa nisi quidem ratione repellendus eaque!
 				</div>
 				<div class="modalities-box modalities-n-aquatics">
-					<title>Dança</title>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit ratione sequi, doloremque expedita nostrum quae! Ab, omnis, incidunt! Aperiam eveniet sapiente quasi, error modi obcaecati amet, repellendus quas veritatis facilis numquam, omnis, quod repudiandae quam molestias quia voluptatum. Et, sapiente.
+					<strong>Dança</strong>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit ratione sequi, doloremque expedita nostrum quae! Ab, omnis, incidunt! molestias quia voluptatum. Et, sapiente.
 				</div>
 				<div class="modalities-box modalities-aquatics">
-					<title>Hidroginástica</title>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo amet qui voluptate temporibus illum libero laboriosam sequi numquam voluptatibus quod, porro quidem earum doloribus! Delectus nesciunt necessitatibus ullam placeat neque aut porro quam? Magnam velit quisquam officia, cum aperiam ipsa.
+					<strong>Hidroginástica</strong>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo amet qui voluptate temporibus illum libero laboriosam sequi numquam quisquam officia, cum aperiam ipsa.
 				</div>
-				<div class="modalities-box modalities-n-aquatics">
-					<title>Zumba</title>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam harum consequuntur corporis expedita tempore fugit aperiam laborum vero temporibus reprehenderit explicabo sed, distinctio excepturi illum eligendi modi deserunt facilis quidem, laboriosam eum eveniet totam adipisci et repellendus. Sit, eveniet, perspiciatis.
-				</div>
-				<div class="modalities-box modalities-aquatics">
-					<title>Crossfit</title>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam pariatur ex, dignissimos quibusdam ut placeat quidem quae ipsam omnis nihil dicta possimus error impedit tenetur suscipit inventore corporis, autem modi adipisci molestias debitis incidunt natus. Suscipit, error earum exercitationem vitae.
+				<div class="modalities-box modalities-n-aquatics first-box">
+					<strong>Zumba</strong>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam harum consequuntur corporis expedita tempore fugit aperiam laborum vero 
 				</div>
 				<div class="modalities-box modalities-aquatics">
-					<title>Corrida</title>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur mollitia id illum, ad, veniam facilis corrupti eligendi doloribus eaque sed architecto soluta saepe ullam sapiente tempora veritatis. Illo amet quis accusantium ea incidunt eum voluptas ipsa, doloremque ipsam non laudantium!
+					<strong>Crossfit</strong>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam pariatur ex, dignissimos quibusdam ut placeat quidem quae ipsam omnis error earum exercitationem vitae.
 				</div>
 				<div class="modalities-box modalities-aquatics">
-					<title>Pilates</title>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint iste natus unde animi ea quod velit. Reiciendis fugit cupiditate saepe nemo placeat veniam libero debitis voluptas eveniet, ullam sequi voluptatum veritatis corrupti unde illum nesciunt? Dolorum dolore optio nihil magni.
+					<strong>Corrida</strong>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur mollitia id illum, ad, veniam facilis corrupti eligendi doloribus ipsam non laudantium!
+				</div>
+				<div class="modalities-box modalities-aquatics">
+					<strong>Pilates</strong>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint iste natus unde animi ea quod velit. Reiciendis fugit cupiditate saepe nihil magni.
 				</div>
 			</div>
 		</div>
@@ -171,11 +174,11 @@
 		<div class="content">
 			<h2 class="faq__title sub-title">Dúvidas Frequentes</h2>
 			
-			<div class="faq__doubts">
+			<div class="faq__doubts cf">
 				<div class="faq__colA cols">
 					<div class="question-answer">
 						<strong>Lorem ipsum dolor.</strong>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt doloribus, voluptate. Reiciendis quia distinctio, nesciunt.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="javascript:;">Deserunt doloribus</a>, voluptate. Reiciendis quia distinctio, nesciunt.</p>
 					</div>
 					<div class="question-answer">
 						<strong>Lorem ipsum dolor.</strong>
@@ -215,12 +218,16 @@
 
 	<footer class="footer">
 		<div class="content">
-			<form action="" method="post" class="form-newsletter">
+			<form action="" method="post" class="form-newsletter cf">
 				<div class="form-item"><strong>Receba dicas fitness e descontos Gympass no seu email</strong></div>
-				<div class="form-item"><input type="text" /><button class="register btn">Cadastrar</button></div>
+				<div class="form-item cf"><input type="text" class="form-input" placeholder="Digite seu e-mail" /><button class="register btn">Cadastrar</button></div>
 			</form>
 		</div>
 	</footer>
+
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/main.js"></script>
 
 </body>
 </html>

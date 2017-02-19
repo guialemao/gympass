@@ -1,0 +1,44 @@
+@import "compass/css3/transition";
+
+.footer {
+	padding: 28px 0;
+	background-color: #3C3C3C;
+
+	.form-newsletter {
+		.form-item {
+			margin-left: 2.92%;
+			width: 48%;
+			height: 50px;
+			float: left;
+			line-height: 50px;
+			color: #fff;
+			&:first-child {
+				margin-left: 0;
+			}
+
+			.form-input {
+				padding-left: 3%;
+				width: 78%;
+				height: 50px;
+				float: left;
+				color: #A8A8AD;
+				border: none;
+			}
+
+			.btn {
+				width: 22%;
+				height: 50px;
+				font-size: 19px;
+				color: #3C3C3C;
+				float: left;
+				border: none;
+				background-color: #CDCDCD;
+				@include transition(0.4s);
+				&:hover {
+					color: red;
+					@include transition(0.4s);
+				}
+			}
+		}
+	}
+}

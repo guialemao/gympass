@@ -1,0 +1,60 @@
+@import "compass/css3/transition";
+
+.faq {
+	position: relative;
+	padding: 70px 0;
+	background-color: #F1F1F1;
+
+	.faq__title {
+		margin-bottom: 100px;
+		font-weight: bolder;
+		text-align: center;
+		color: #3C3C3C;
+	}
+
+	.faq__doubts {
+		.cols {
+			margin-left: 12%;
+			width: 44%;
+			float: left;
+			&:first-child {
+				margin-left: 0;
+			}
+			.question-answer {
+				margin-bottom: 50px;
+				strong {
+					margin-bottom: 20px;
+					display: block;
+					font-weight: bold;
+				}
+				p {
+					font-size: 13px;
+					line-height: 150%;
+					a {
+						color: red;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+	}
+
+	.faq__see-all {
+		width: 100%;
+		.fake-button {
+			margin: 0 auto;
+			width: 23.63%;
+			height: 46px;
+			display: block;
+			line-height: 46px;
+			color: #A8A8AB;
+			text-align: center;
+			border: 1px solid #A8A8AB;
+			&:hover {
+				color: red;
+				border-color: red;
+				@include transition(0.4s);
+			}
+		}
+	}//faq__see-all
+}
