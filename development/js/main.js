@@ -47,9 +47,10 @@ var filterModalities = function() {
 
 		console.log("qtd boxes: "+qtd_visible);
 
-		for (i=0; i < qtd_visible; i++ ) {
-			console.log("loop:"+ i);
-			
+		var cont = 0;
+		while(cont < qtd_visible) {
+			console.log(cont);
+			cont++;
 		}
 
 
